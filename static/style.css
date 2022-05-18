@@ -13,6 +13,26 @@ body{
     font-size: 24px;
     perspective: 100px;
 }
+
+.bounce{
+    width: 10px;
+    height:10px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+@keyframes bounce {
+    from { transform: translate3d(0, 0, 0);}
+    to { transform: translate3d(0, -12px, 0);}
+}
+
+li:hover + .bounce{
+    animation: bounce 0.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
 nav{
     height: 70px;
     width: 100%;
