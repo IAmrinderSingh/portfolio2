@@ -49,6 +49,8 @@ nav ul a{
     list-style: none;
     text-decoration: none;
     color: black;
+    display: flex;
+    align-items: center;
 }
 nav ul li{
     list-style: none;
