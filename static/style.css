@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --YELLOW:#fc8c03;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    perspective: 100px;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: start;
+    line-height: 70px;
+    margin-right: 20px;
+}
+nav ul a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
