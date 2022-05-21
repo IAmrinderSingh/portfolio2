@@ -26,6 +26,7 @@ skills=[
     },   
 ]
 
+mypic="/static/images/mypic.jpg";
 
 projects=[
     {
