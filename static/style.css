@@ -8,6 +8,9 @@ html{
 :root{
     --YELLOW:#fc8c03;
 }
+span{
+    color: var(--YELLOW);
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
@@ -28,6 +31,9 @@ body{
     to { transform: translate3d(0, -12px, 0);}
 }
 
+li:hover{
+    color: var(--YELLOW);
+}
 li:hover + .bounce{
     animation: bounce 0.2s;
     animation-direction: alternate;
@@ -82,6 +88,35 @@ nav ul li{
 .flex{
     display: flex;
     justify-content: start;
+}
+
+#skills{
+    width: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+#skills h1{
+    text-align: center;
+    padding: 50px;
+}
+#skills h2{
+    color: var(--YELLOW);
+}
+.skills_card{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.skills_card i{
+    color: var(--YELLOW);
 }
 
 footer{

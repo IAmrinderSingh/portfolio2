@@ -9,6 +9,20 @@
             
         </div>
     </section>
+
+    <!-- skills section -->
+    <hr>
+    <section id="skills">
+        <h1><span>My</span> Skills</h1>
+        <div class="grid">
+            {%for i in range(0,len_skills)%}
+            <div class="skills_card">
+                <i class="{{skills[i].icons}}"></i>
+                <h2>{{skills[i].title}}</h2>
+            </div>
+            {%endfor%}
+        </div>
+    </section>
 {%endblock%}
 
 {%block footer%}
