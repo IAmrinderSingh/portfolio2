@@ -83,3 +83,41 @@ nav ul li{
     display: flex;
     justify-content: start;
 }
+
+footer{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+}
+
+#content{
+    
+    background-color: black;
+    padding: 50px;
+}
+
+footer a{
+    font-size: 18px;
+    color: var(--YELLOW);
+    text-decoration: none;
+    padding: 20px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+footer ul li{
+    padding: 10px;
+}
+i{
+    color: white;
+    font-size: 70px;
+}
+svg{
+    transform: translateY(5%);
+}
+i:hover,footer h2{
+    color: var(--YELLOW);
+}
