@@ -25,3 +25,36 @@ skills=[
         "icons":"fa-brands fa-linux"
     },   
 ]
+
+
+projects=[
+    {
+        "title":"Algorithm Visualizer",
+        "discription":"Want to learn Algorithms more efficiently.Here algorithm visualize is graphical representation of algorithm\n click to visualize ",
+        "img":"/static/images/algorithm.png",
+        "alt":"algorithm visualizer",
+        "link":""
+    },
+    {
+        "title":"Todo-app",
+        "discription":"Facing difficulty to organize daily task?\n Here is solution to store your daily task on your web browser click to check it out",
+        "img":"/static/images/to-do.png",
+        "alt":"Todo-app",
+        "link":"https://iamrindersingh.github.io/to-do-webapp/"
+    },
+    {
+        "title":"Music Website",
+        "discription":"Feeling Bored want to listen some music. Then what are you waiting for check out music website and relax your mind",
+        "img":"/static/images/music_website.png",
+        "alt":"Music Website",
+        "link":"https://iamrindersingh.github.io/MusicWebsite/"
+    },
+     {
+        "title":"Portfolio",
+        "discription":"Want to know about me, my projects,my skills or want to make new projects then what are you waiting for ? ",
+        "img":"/static/images/portfolio.png",
+        "alt":"My portfolio",
+        "link":""
+    }
+
+]

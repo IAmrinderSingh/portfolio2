@@ -10,6 +10,25 @@
         </div>
     </section>
 
+    <!-- Projects section -->
+    <hr>
+    <section id="projects">
+        <h2><span>My</span>Projects</h2>
+        <div class="grid_pro">
+            {%for i in range(0,len_pro)%}
+            <a href="{{projects[i].link}}" target="_blank">
+                <div class="card">
+                    <div id="img_container">
+                        <img src={{projects[i].img}} alt={{projects[i].alt}}>
+                    </div>
+                    <h1 class="title_proj">{{projects[i].title}}</h1>
+                    <p class="discription">{{projects[i].discription}}</p>
+                </div>
+            </a>
+            {%endfor%}
+        </div>
+    </section>
+
     <!-- skills section -->
     <hr>
     <section id="skills">
