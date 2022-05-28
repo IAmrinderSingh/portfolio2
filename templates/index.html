@@ -42,6 +42,22 @@
             {%endfor%}
         </div>
     </section>
+
+     <!-- Contect me section -->
+    <hr>
+    <section id="contactme">
+        <form action="" method="post">
+            <h1>Contact <span>Me</span></h1>
+            <p>Hey there,Let's <span>talk</span> about<br> <span>creative</span> projects</p>
+            <input name="name" type="text" placeholder="Name" required>
+            <br>
+            <input name="email" type="text" placeholder="Email" required>
+            <br>
+            <textarea name="message" rows="10" placeholder="Message" required></textarea>
+            <br>
+            <div id="btn"><button id="submitbtn" type="submit">Submit</button><span class="bounce" style="background-color: white;"></span></div> 
+        </form>
+    </section>
 {%endblock%}
 
 {%block footer%}

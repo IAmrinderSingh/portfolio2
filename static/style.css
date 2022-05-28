@@ -34,7 +34,7 @@ body{
 li:hover{
     color: var(--YELLOW);
 }
-li:hover + .bounce,#name h2:hover +.bounce{
+li:hover + .bounce,#name h2:hover +.bounce,#submitbtn:hover +.bounce{
     animation: bounce 0.2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -186,6 +186,54 @@ nav ul li{
 }
 .skills_card i{
     color: var(--YELLOW);
+}
+
+
+#contactme{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+#contactme form{
+    text-align: center;
+}
+
+#contactme form h1,#about h1,#skills h1,#projects h2{
+    font-size: 82px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+#contactme form p{
+    font-size: 72px;
+}
+#contactme form input,#contactme form textarea{
+    margin-top: 10px;
+    width: 80%;
+    padding: 15px;
+    font-size: 105%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#contactme form textarea{
+    resize: vertical;
+}
+#submitbtn{
+    font-size: 120%;
+    font-weight: 800;
+    background-color:black;
+    border: none;
+    cursor: pointer;
+    color:var(--YELLOW);
+}
+
+#btn{
+    display: inline-block;
+    background-color: black;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 footer{
