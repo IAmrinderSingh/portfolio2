@@ -1,6 +1,6 @@
 
 var options = {
-    strings: ['Amrinder Singh', 'Web Developer','Persuing in CSE'],
+    strings: ['Amrinder Singh', 'Web Developer','Undergradute 23'],
     typeSpeed: 100,
     loop:true,
   };

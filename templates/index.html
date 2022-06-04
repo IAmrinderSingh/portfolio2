@@ -3,10 +3,20 @@
     <section id="home">
         <div id="name">
             <h1>I'm <span id="typed"></span></h1>
+            <div id="about">
+                Thank You to visit.
+                I am a future full-stack developer, currently I'm focusing on backend.
+                I love to learn new technologies and I love to interact with others.
+                I want to create,inovate and contribute to some new projects.
+                         
+            </div>
             <div class="flex"><a href="#contactme"><h2>Contact Me</h2><span class="bounce" style="background-color: white;"></span></a></div>
         </div>
         <div id="mypic">
-            <img src="{{mypic}}" alt="">
+            <div id="container">
+                <img src="{{mypic}}" alt="">
+            </div>
+            
         </div>
     </section>
 
@@ -14,7 +24,7 @@
     <hr>
     <section id="projects">
         <h2><span>My</span>Projects</h2>
-        <div class="grid_pro">
+        <div class="grid">
             {%for i in range(0,len_pro)%}
             <a href="{{projects[i].link}}" target="_blank">
                 <div class="card">

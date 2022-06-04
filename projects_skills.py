@@ -23,7 +23,10 @@ skills=[
     {
         "title":"Linux",
         "icons":"fa-brands fa-linux"
-    },   
+    },
+    {
+        "title":"Problem Solving"
+    }
 ]
 
 mypic="/static/images/mypic.jpg";
@@ -50,12 +53,5 @@ projects=[
         "alt":"Music Website",
         "link":"https://iamrindersingh.github.io/MusicWebsite/"
     },
-     {
-        "title":"Portfolio",
-        "discription":"Want to know about me, my projects,my skills or want to make new projects then what are you waiting for ? ",
-        "img":"/static/images/portfolio.png",
-        "alt":"My portfolio",
-        "link":""
-    }
 
 ]
